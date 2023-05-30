@@ -1,0 +1,142 @@
+[
+    {
+        "name": "graph entrylist background",
+        "source": "graph_entrylist_background.png",
+        "type": "Texture"
+    },
+    {
+        "name": "textbox",
+        "source": "textbox.png",
+        "type": "Texture"
+    },
+    {
+        "name": "scroller button",
+        "source": "scroller_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 8,
+        "sprite-height": 85
+    },
+    {
+        "name": "entry add button",
+        "source": "entry_add_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 392,
+        "sprite-height": 64
+    },
+    {
+        "name": "entry delete button",
+        "source": "entry_delete_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 16,
+        "sprite-height": 16
+    },
+    {
+        "name": "pop up box background",
+        "source": "pop_up_box.png",
+        "type": "Texture"
+    },
+    {
+        "name": "default tickbox",
+        "source": "default_tickbox.png",
+        "type": "SpriteSheet",
+        "sprite-width": 52,
+        "sprite-height": 52
+    },
+    {
+        "name": "color palette",
+        "source": "color_palette.png",
+        "type": "Texture"
+    },
+    {
+        "name": "warning",
+        "source": "warning.png",
+        "type": "Texture"
+    },
+    {
+        "name": "grid toggle tickbox",
+        "source": "grid_toggle_tickbox.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80
+    },
+    {
+        "name": "pane toggle tickbox",
+        "source": "pane_toggle_tickbox.png",
+        "type": "SpriteSheet",
+        "sprite-width": 12,
+        "sprite-height": 132
+    },
+    {
+        "name": "options menu background",
+        "source": "options_menu_background.png",
+        "type": "Texture"
+    },
+    {
+        "name": "options toggle tickbox",
+        "source": "options_toggle_tickbox.png",
+        "type": "SpriteSheet",
+        "sprite-width": 132,
+        "sprite-height": 12
+    },
+    {
+        "name": "save button",
+        "source": "save_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80
+    },
+    {
+        "name": "file open button",
+        "source": "file_open_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80
+    },
+    {
+        "name": "settings button",
+        "source": "settings_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80
+    },
+    {
+        "name": "screenshot button",
+        "source": "screenshot_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80
+    },
+    {
+        "name": "accept button",
+        "source": "accept_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 60,
+        "sprite-height": 60
+    },
+    {
+        "name": "cancel button",
+        "source": "cancel_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 60,
+        "sprite-height": 60
+    },
+    {
+        "name": "window icon",
+        "source": "icon.png",
+        "type": "Texture"
+    },
+    {
+        "name": "undo button",
+        "source": "undo_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80  
+    },
+    {
+        "name": "redo button",
+        "source": "redo_button.png",
+        "type": "SpriteSheet",
+        "sprite-width": 80,
+        "sprite-height": 80  
+    }
+]

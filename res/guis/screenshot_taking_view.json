@@ -1,0 +1,22 @@
+{
+    "widgets": [
+        {
+            "pos-x": 860,
+            "pos-y": 50,
+            "size-x": 60,
+            "size-y": 60,
+            "name": "accept button",
+            "textures": "accept button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 1000,
+            "pos-y": 50,
+            "size-x": 60,
+            "size-y": 60,
+            "name": "cancel button",
+            "textures": "cancel button",
+            "type": "Button"
+        }
+    ]
+}

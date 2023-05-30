@@ -1,0 +1,109 @@
+{
+    "widgets": [
+        {
+            "pos-x": 524,
+            "pos-y": 911,
+            "size-x": 990,
+            "size-y": 126,
+            "priority": -1,
+            "name": "background",
+            "texture": "options menu background",
+            "type": "Image"
+        },
+        {
+            "pos-x": 953,
+            "pos-y": 899,
+            "size-x": 132,
+            "size-y": 12,
+            "name": "options toggle tickbox",
+            "textures": "options toggle tickbox",
+            "ticked": false,
+            "type": "TickBox"
+        },
+        {
+            "pos-x": 558,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "save button",
+            "textures": "save button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 673,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "file open button",
+            "textures": "file open button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 788,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "settings button",
+            "textures": "settings button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 903,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "screenshot button",
+            "textures": "screenshot button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 1806,
+            "pos-y": 20,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "grid toggle tickbox",
+            "textures": "grid toggle tickbox",
+            "ticked": true,
+            "type": "TickBox"
+        },
+        {
+            "pos-x": 660,
+            "pos-y": 150,
+            "size-x": 600,
+            "size-y": 100,
+            "name": "pop up box",
+            "type": "PopUpBox"
+        },
+        {
+            "pos-x": 1018,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "undo button",
+            "textures": "undo button",
+            "type": "Button"
+        },
+        {
+            "pos-x": 1133,
+            "pos-y": 933,
+            "size-x": 80,
+            "size-y": 80,
+            "name": "redo button",
+            "textures": "redo button",
+            "type": "Button"
+        }
+    ],
+    "absolute-widgets": [
+        "pop up box",
+        "grid toggle tickbox"
+    ],
+    "behavior-components": [
+        {
+            "type": 0,
+            "offset-x": 0,
+            "offset-y": 146,
+            "slided": false,
+            "slide-time": 0.4
+        }
+    ]
+}

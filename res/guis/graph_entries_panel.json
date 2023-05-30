@@ -1,0 +1,99 @@
+{
+    "pos-x": 0,
+    "pos-y": 0,
+    "size-x": 474,
+    "size-y": 1080,
+    "background": "graph entrylist background",
+    "widgets": [
+        {
+            "pos-x": 71,
+            "pos-y": 0,
+            "size-x": 392,
+            "size-y": 64,
+            "name": "entry textbox 0",
+            "type": "TextBox"
+        },
+        {
+            "pos-x": 8,
+            "pos-y": 5,
+            "size-x": 54,
+            "name": "entry color button 0",
+            "priority": 1,
+            "type": "FunctionColorButton"
+        },
+        {
+            "pos-x": 8,
+            "pos-y": 5,
+            "size-x": 54,
+            "name": "entry visibility tickbox 0",
+            "priority": 1,
+            "ticked": true,
+            "type": "FunctionVisibilitySelector"
+        },
+        {
+            "pos-x": 71,
+            "pos-y": 6,
+            "size-x": 230,
+            "name": "entry color picker 0",
+            "enabled": false,
+            "priority": 2,
+            "type": "ColorPicker"
+        },
+        {
+            "pos-x": 419,
+            "pos-y": 14,
+            "size-x": 33,
+            "size-y": 29,
+            "texture": "warning",
+            "name": "entry warning mark 0",
+            "enabled": false,
+            "priority": 2,
+            "type": "Image"
+        },
+        {
+            "pos-x": 0,
+            "pos-y": 64,
+            "size-x": 463,
+            "size-y": 76,
+            "textures": "entry add button",
+            "name": "entry add button",
+            "priority": 1,
+            "type": "Button"
+        },
+        {
+            "pos-x": 474,
+            "pos-y": 474,
+            "size-x": 12,
+            "size-y": 132,
+            "name": "pane toggle tickbox",
+            "textures": "pane toggle tickbox",
+            "ticked": false,
+            "type": "TickBox"
+        },
+        {
+            "pos-x": 660,
+            "pos-y": 150,
+            "size-x": 600,
+            "size-y": 100,
+            "name": "pop up box",
+            "type": "PopUpBox"
+        }
+    ],
+    "static-widget-names": [
+        "pane toggle tickbox",
+        "pop up box"
+    ],
+    "absolute-widgets": [
+        "pop up box"
+    ],
+    "behavior-components": [
+        {
+            "type": 0,
+            "offset-x": -474,
+            "offset-y": 0,
+            "slided": false,
+            "slide-time": 0.4
+        }
+    ]
+
+}
