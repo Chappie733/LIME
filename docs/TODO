@@ -1,0 +1,60 @@
+NOME:
+	1. I-MAC
+		-> lmao
+		-> Interactive-Mathematics Accessible Calculator
+	
+	2. LAMT
+		-> Lightweight Accessible Mathematics Tool
+	
+	3. LIME - Scelto
+		-> Lightweight Interactable Mathematics Environment
+
+
+IDEE:
+	- Cambiare la distanza nella x tra due punti che prendo sullo schermo per disegnare ogni funzione in base a quanto è
+	alta la derivata della funzione in quel tratto
+		--> la derivata si può stimare con il rapporto incrementale
+	
+	- Fare un comando per disegnare la derivata dal grafico, oltre che magari la funzione integrale
+	- Fare che si possano visualizzare più piani, come se fossero delle finestre
+		--> possibilità di metterli uno sopra l'altro tipo a livelli?
+
+		
+	- Mettere un sistema di FLAG nella GUI, per esempio quando viene premuto un pulsante, invece di avere gui.isClicked(), potrei avere
+	  una flag dal cui titolo so che è stato premuto un pulsante, un po' come il sistema di eventi di pygame, per ora questo non serve,
+	  ma più avanti con GUI più complesse potrebbe
+	  	--> conviene farlo solo se necessario, anche perché per ora sono riuscito a mantenere i Widgets indipendenti dall'oggetto GUI
+
+
+COSE DA FARE (NELL'ORDINE SEGNATO):
+	- Menù di opzioni nella parte inferiore dello schermo:
+		- Pulsante per regolare le impostazioni della griglia e degli assi -- apre un menù suo
+			-> densità della griglia
+			-> colore della griglia
+			-> opacità della griglia
+			-> opacità assi
+			-> tipo di assi/griglia
+				=> nessuna
+				=> cartesiana
+				=> polare
+		- Pulsante per regolare il tema
+		- Pulsante per tornare indietro nella modifica
+		- Pulsante per tornare avanti
+	
+	- Highlight degli elementi del grafico quando ci si clicca sopra, e opzioni per i singoli elementi
+		--> impostare spessore
+		--> impostare opacità
+		--> impostare visibilità etichetta
+
+	- Mettere una griglia secondaria più piccola, anch'essa attivabile o disattivabile
+
+	- Considerare di passare come argomento a onEntryChange() il nome dell'entrata cambiata in modo da dover considerare solo quella
+	come possibile causa di problemi per la validità di ogni PlaneObject
+		--> isValid() dovrebbe comunque controllare tutte le variabili
+	
+	- Porre le informazioni riguardo al caricamento delle textures in un file .json
+	
+	- Permettere l'utilizzo di una funzione già definita nella definizione di un altra
+		ex: dato 'f(x)=3x^2', permettere di definire 'g(x)=log(f(x))' in modo che sia equivalente a 'g(x)=log(3x^2)'
+		--> fare una funzione getValue(String[] params) che determina cosa succede quando si cerca di usare il valore di un PlaneObject?
+		

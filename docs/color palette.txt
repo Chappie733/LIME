@@ -1,0 +1,4 @@
+Per quando un pulsante o qualcosa di interagibile è hovered, si usa uno strato completamente nero al 30% di opacità sopra (tranne
+che per marker che indicano cosa fa l'oggetto)
+
+Per quando un pulsante è premuto, si usa uno strato completamente nero con il 50% di opacità

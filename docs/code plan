@@ -1,0 +1,26 @@
+undo/redo delle azioni: mi serve un modo per salvare le azioni condotte
+	-> classe Action
+	
+la classe Action
+	- deve essere astratta
+		-> perché a seconda del tipo di azione ci saranno diverse informazioni sull'azione necessarie ad annullarla o a ricompierla
+	
+	- il tipo di azione condotta (potrebbe anche non servire)
+		1. ELEMENT_ADD: un elemento del grafico è stato aggiunto
+		2. ELEMENT_DELETE: un elemento del grafico è stato rimosso
+			-> avrà bisogno anche della lista di index che sono stati resi invalidi
+		3. VISIBILITY_ALTERED: la visibilità di un elemento è stata cambiata
+		4. COLOR_ALTERED: il colore di un elemento è stato cambiato
+
+	- l'elemento su cui è stata condotta (undo/redo nel grafico):
+			(potrebbe non sembrare necessario dato che alterando la pane_gui si potrebbe riaggiungere l'elemento, ma è importante
+										per salvare i settaggi specifici dell'elemento)
+	
+	- l'indice, nella pane_gui, su cui è stata condotta
+	
+	
+
+In generale conviene fare una classe per ogni azione, e poi in ogni classe che inerita da Action mettere solo il codice necessario
+per annullare l'azione, oltre che quella per rifarla
+	-> undo(CartesianPlane plane, GraphEntriesPanel panel)
+	-> redo(CartesianPlane plane, GraphEntriesPanel panel)
